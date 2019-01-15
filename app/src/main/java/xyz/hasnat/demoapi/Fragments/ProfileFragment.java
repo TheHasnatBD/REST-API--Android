@@ -46,7 +46,7 @@ public class ProfileFragment extends Fragment {
 
         email = view.findViewById(R.id.email);
 
-        String Email_cDate = "Email: " + MainActivity.appPreference.getDisplayEmail()
+        String Email_cDate = MainActivity.appPreference.getDisplayEmail()
                 +"\n Registered at: " + MainActivity.appPreference.getCreDate();
         email.setText(Email_cDate);
         //Log.e("created_at: ", c_date);
